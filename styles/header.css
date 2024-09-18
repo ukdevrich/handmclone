@@ -1,0 +1,45 @@
+.header {
+  z-index: 0;
+  order: 1;  
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  
+    
+}
+
+.logo {
+  z-index: 0;
+  height: 25px;
+  width: 75px;
+  top: 10px;
+  left: 10px;
+  position: absolute;  
+  
+}
+
+@media screen and (max-width: 355px) {
+  .logo  {
+    display: none;
+  }
+}
+
+.navbar {   
+  z-index: 1; 
+  height: 50px;
+  width: 250px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  right: 10px;
+        
+}
+
+.navbaritem {  
+  height: 17.5px;
+  width: 17.5px;
+  margin-top: 16.25px;
+}
+
